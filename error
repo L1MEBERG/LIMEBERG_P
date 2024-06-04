@@ -1,0 +1,7 @@
+«student»: 
+class student:
+    name = ""
+    def setName(self, passedValue):
+        self.name = passedValue
+    def displayName(self):
+        print(self.name)
